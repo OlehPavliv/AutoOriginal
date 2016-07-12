@@ -1,0 +1,305 @@
+html , body{
+   
+    padding:0;
+    background-color: black; 
+    font-size: 16px;
+    font-family: Times New Roman, Arial, Helvetica, Sans-Serif;
+    height: 100%;
+      
+    margin:0 auto;
+}
+.wrapper{
+    min-height:100%;
+    max-width:1700px;
+    margin:0 auto;    
+    background: #BFBFBF url('../images/page.png') scroll;  
+    position: relative;
+}
+.clear{
+    clear: both;
+}
+header .header_1{
+    border-top:2px solid #818181;
+    height:35px;
+    background:linear-gradient( to bottom ,#343434 15% ,  #242424 50%, #0f0f0f 75% ,#0B0B0B 95%);
+}
+header .header_1 a{
+    text-decoration:none;
+    color:#f7f7f7;
+    font-size:18px;
+    float:right;
+    margin-right:25px;
+    margin-top:5px;
+}
+header .header_1 a:hover{
+    color:#818181;
+}
+
+header .header_2{
+    height:400px;
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+     border-bottom:2px solid #818181;
+}
+
+.center{
+    width:80%;
+    margin:0 auto;
+}
+.header_2 h1{
+    margin-top:0;
+    margin-bottom:20px;
+    padding-top:20px;
+    text-align:center;
+    font-size:90px;
+    color:#818181;
+}
+.header_2 form {
+    text-align:center;
+    color:#f7f7f7;
+   
+}
+.header_2 form a{
+    text-decoration:none;
+    margin-left:20px;
+    padding:5px 20px 5px 20px;
+    font-size:20px;
+    background:linear-gradient(to bottom,#dddddd 50% ,#c6c6c6 95%);
+    border-radius:6px;
+    color:#818181;
+}
+.header_2 form a:hover{
+      background:linear-gradient(to bottom, #404040 0, #2B2B2B 50%, #0F0F0F 50%, #212121 100%) no-repeat;
+}
+.header_2 form input[type="search"]{
+    
+    width:420px;
+    height:30px;
+    margin-top:25px;
+    margin-left:16px;
+    border-radius: 6px;
+    text-indent: 10px;
+    color:#818181;
+}
+.header_2 form input[type="submit"]{
+    border-radius:4px;
+    height:30px;
+    width:70px;
+    margin-left:18px;
+    color:#818181;
+    background:linear-gradient(to bottom,#dddddd 50% ,#c6c6c6 95%);
+    font-size:15px;
+    font-family:Times New Roman ,sans-serif;
+    cursor: pointer;
+}
+.header_2 form input[type="submit"]:hover{
+    background:linear-gradient(to bottom, #404040 0, #2B2B2B 50%, #0F0F0F 50%, #212121 100%) no-repeat;
+         
+}
+.header_2 .header_par{
+    font-size:22px;
+    color:#818181;
+    margin-bottom:0;
+}
+.header_2 form input[type="radio"]{
+    margin-top:15px;
+}
+.header_2 form span{
+    color:#0C99D3;
+    text-decoration:underline;
+}
+/* /header */
+
+/* main_index */
+main{
+    width:80%;
+    margin:0 auto;
+    margin-top:40px;
+    
+    padding-bottom: 220px;
+   
+   
+}
+main ul.spusok_1{
+    
+    padding-left:0;
+}
+main ul.spusok_1 li {
+    display: inline;  
+    margin-left:20px;
+    
+}
+
+main ul.spusok_1 li a{
+    padding: 10px 50px;
+    background:linear-gradient(to bottom,#dddddd 50% ,#c6c6c6 95%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-decoration:none;
+    font-size:20px;
+    color:#818181;
+}   
+main ul.spusok_1 li a:hover{
+    background:linear-gradient(to bottom, #404040 0, #2B2B2B 50%, #0F0F0F 50%, #212121 100%) no-repeat;
+}
+main .text_information{
+    
+    margin-left:19px;
+    background:linear-gradient(to bottom,#dddddd 50% ,#c6c6c6 95%);
+    border-radius:0 0 16px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+main .kompany , .news , .original{
+    padding:10px 10px;
+}
+main .kompany ul li{
+    list-style-type:none;
+}
+main .kompany , .news , .original h2 {
+    color:#545454;
+    margin-left:10px; 
+    margin-bottom:0;
+}
+main .kompany , .news , .original p{
+    color:#545454;
+    text-align: justify;
+    margin-left:10px;
+    margin-right:10px;
+    padding-bottom:20px;
+    text-indent:20px;
+}
+main .kompany  p a{
+   color:#0C99D3;
+    text-decoration:underline;
+}
+main .kompany ul{
+    margin-top:0;
+    margin-left:20px;
+    padding-left:0;
+} 
+main .kompany ul li{
+    color:#545454;
+}
+#Company_1{
+    display:none;
+}
+#Products_1{
+    display:none;
+}
+
+
+/* ----------/main_index------------------ */
+
+
+
+
+/* ------------registration.html------------- */
+
+
+.background_form{
+    background-color:#DEDEDE;
+    color:#545454;
+   
+    
+}
+.background_form h2{
+    font-size:30px;
+}
+.background_form input{
+    width:180px; 
+    border-radius:5px;
+    text-indent:10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+.background_form input[type="checkbox"]{
+    width:inherit;
+    margin:15px 0 15px 0;
+    box-shadow:none;
+}
+.background_form input[type="submit"].button1{
+    border-radius:4px;
+    height:30px;
+    width:70px;
+    text-indent:0;
+    color:#818181;
+    background:linear-gradient(to bottom,#dddddd 50% ,#c6c6c6 95%);
+    font-size:15px;
+    font-family:Times New Roman ,sans-serif;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.background_form input[type="submit"].button1:hover{
+     background:linear-gradient(to bottom, #404040 0, #2B2B2B 50%, #0F0F0F 50%, #212121 100%) no-repeat;
+}.background_form input[type="submit"].button2{
+     border-radius:4px;
+    height:30px;
+    width:130px;
+    text-indent:0;
+    color:#818181;
+    background:linear-gradient(to bottom,#dddddd 50% ,#c6c6c6 95%);
+    font-size:15px;
+    font-family:Times New Roman ,sans-serif;
+    cursor: pointer;
+}
+.background_form input[type="submit"].button2:hover{
+     background:linear-gradient(to bottom, #404040 0, #2B2B2B 50%, #0F0F0F 50%, #212121 100%) no-repeat;
+}
+main .form_enter {
+    width:40%;
+    float:left;    
+    margin-left:110px;
+}
+main .form_registration {
+    float:right;
+    width: 40%;    
+    height:auto;
+  
+}
+
+main .form_enter a{
+    margin-top:20px;
+    color:#0C99D3;
+    text-decoration:underline;
+}
+main p.some_text{
+    padding-bottom:10px;
+    font-size:18px;
+    text-align: center;
+}
+/* ------------/registration.html--------- */
+/*  ---------footer-------------- */
+footer{
+    background:linear-gradient( to bottom ,#343434 15% ,  #242424 50%, #0f0f0f 75% ,#0B0B0B 95%) ;
+    position:absolute;
+    
+    bottom: 0;
+   
+    height:200px;
+    
+    border-top:2px solid #818181;
+    border-bottom:2px solid #818181;
+    width:100%;
+    font-size:14px;
+   
+}
+
+.footer_information{
+    float:left;
+     margin-left:45px;
+    color:aliceblue;
+}
+.footer_information h3{
+    color:aliceblue;
+}
+.footer_center{
+    width:80%;
+    margin:0 auto;
+    height:200px;
+}
+ .footer_information a img{
+    margin-top:15px;
+   padding-left:10px;
+    
+}

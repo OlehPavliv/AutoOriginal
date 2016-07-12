@@ -1,0 +1,41 @@
+/*-------header--------*/
+header .header_2 h1{
+    float:none;
+    margin-bottom:0;
+    padding-top:0px;
+    font-size:55px;
+}
+header .header_2 form input[type="search"]{
+    
+    width:300px;
+}
+header .header_2 form input[type="submit"]{
+    margin-top:5px;
+}
+header .header_2 p.header_par{
+  display: none;
+}
+/*---------/header----------*/
+
+
+/*--------------main---------*/
+main ul.spusok_1 li{
+    display:block;
+    margin-top: 30px;
+    
+    
+}
+
+
+
+
+
+footer #footer_inf{
+    display:none;
+}
+footer #footer_inf1{
+    display:none;
+}
+footer{
+    border-bottom:none;
+}

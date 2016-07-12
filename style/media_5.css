@@ -1,0 +1,31 @@
+header .header_2 form input[type="submit"]{
+    margin-top:10px;
+}
+
+.header_2 h1{
+    margin-bottom:0;
+}
+
+
+main ul.spusok_1 li{
+    margin-left:10px;
+}
+main ul.spusok_1 li a{
+    padding:7px 45px;
+}
+main ul.spusok_1{
+    margin-left:8px;
+}
+
+
+
+
+
+.footer_center{
+    width:100%;
+    font-size:12px;
+  
+}
+footer #footer_inf{
+    display:none;
+}

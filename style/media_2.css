@@ -1,0 +1,69 @@
+/*---------header----------*/
+header .client_header_1 ul.list_1{
+    width:60%;
+    
+}
+header .client_header_1 ul.list_1 li{
+    margin-left:30px;
+}
+
+header .client_header_2 h1{
+    float:none;
+    margin-bottom:0;
+    padding-top:10px;
+}
+header .client_header_2 form{
+  
+    width:80%;
+    margin:0 auto;
+}
+header .client_header_2 .koshuk_header{
+    display:none;
+}
+header .client_header_2 form input[type="search"]{
+    width:390px;
+}
+header .client_header_2 form input[type="submit"]{
+    margin-top:5px;
+}
+/*-------/header------*/
+
+/*------main----------*/
+main .main_list ul.nav{
+    margin-left:10px;
+}
+main .main_list ul.nav li{
+    width:100px;
+}
+main .main_form table th{
+
+    width:95px;
+    margin:0 0;
+ 
+}
+main .main_form table{
+    font-size:14px; 
+    
+}
+main .main_form h2{
+    display:none;
+}
+main .main_form{
+    margin-left:0;
+    margin-right:0;
+    margin-top:5px;
+}
+/*------/main-------*/
+
+
+/*-----footer----*/
+
+.footer_center{
+    width:100%;
+    font-size:12px;
+  
+}
+footer #footer_inf{
+    display:none;
+}
+/*------/footer-----*/

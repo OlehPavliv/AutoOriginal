@@ -1,0 +1,40 @@
+/*---------header-------------------*/
+header .client_header_2 h1{
+    font-size:70px;
+  
+    width:40%;
+}
+header .client_header_2 form input[type="search"]{
+    width:370px;
+}
+header .client_header_2 form{
+   
+    width:55%;
+}
+
+
+
+header .client_header_2 .koshuk_header{
+    display:none;
+}
+/*----------------/header---------*/
+
+/*-----------------main----------*/
+main .main_form table th{
+
+    width:165px;
+ 
+}
+    
+main .main_form table{
+    font-size:17px; 
+/*--------/main------------------*/
+    
+/*-----------------footer---------*/
+
+}
+.footer_center{
+    width:100%;
+  
+    font-size:12px;
+}

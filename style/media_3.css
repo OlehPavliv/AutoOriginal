@@ -1,0 +1,75 @@
+    /*------ header ---*/
+
+
+
+    header .client_header_1 ul.list_2 li.prof{
+        display: none;
+    }
+    header .client_header_1 ul.list_1 li.prof1{
+        display:none;
+    }
+
+
+    header .client_header_2 h1{
+        float:none;
+        margin-bottom:0;
+        padding-top:0px;
+        font-size:55px;
+    }
+    header .client_header_2 .koshuk_header{
+        display:none;
+    }
+    header .client_header_2 form{
+
+        width:80%;
+        margin:0 auto;
+    }
+    header .client_header_2 form input[type="search"]{
+
+        width:300px;
+    }
+    header .client_header_2 form input[type="submit"]{
+        margin-top:5px;
+    }
+
+    /*---------/header------------*/
+
+    /*-------main------------------*/
+
+    main{
+        height:700px;
+
+
+
+        padding-bottom:250px;
+    }
+    main .main_form h2{
+        display:none;
+    }
+    main .main_form{
+        margin-left:0;
+        margin-right:0;
+        margin-top:5px;
+    }
+    main .main_form table{
+        font-size:12px; 
+
+    }main .main_list ul.nav li{
+        margin-top:5px;
+         padding:5px 60px 5px 5px;
+    }
+    main .main_form input[type="submit"]{
+        height:25px;
+        width:140px;
+        font-size:12px;
+    }
+    /*-------footer------------*/
+    footer #footer_inf{
+        display:none;
+    }
+    footer #footer_inf1{
+        display:none;
+    }
+    footer{
+        border-bottom:none;
+    }

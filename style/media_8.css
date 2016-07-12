@@ -1,0 +1,22 @@
+header .header_2 form input[type="submit"]{
+    margin-top:10px;
+}
+header .header_2 p.header_par{
+  display: none;
+}
+main .form_enter{
+    float:none;
+}
+
+main .form_registration{
+    float:none;
+    margin-left:110px;
+}
+.footer_center{
+    width:100%;
+    font-size:12px;
+  
+}
+footer #footer_inf{
+    display:none;
+}

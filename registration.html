@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AutoOriginal</title>
+        <meta charset="utf-8">
+        <link href="style/main.css"rel="stylesheet">
+        <link href="style/media_7.css" media="(max-width:1300px) and (min-width:980px)" rel="stylesheet">
+        <link href="style/media_8.css" media="(max-width:979px) and (min-width:640px)" rel="stylesheet">
+        <link href="style/media_9.css" media="(max-width:639px) and (min-width:360px)" rel="stylesheet">
+    </head>
+    <body>
+       <div class="wrapper">
+        <!--шапка-->   
+        <header>
+            <div class="header_1">
+                <a href="index.html">Головна сторінка</a>
+              
+            </div>
+            <div class="clear"></div>
+            <div class="header_2">
+              <div class="center">
+                     <h1>AutoOriginal</h1>
+                     <form method="get"action="form.php">
+                        <a href="">Вхід</a>
+                        <a href="">Реєстрація</a>
+                         <p class="header_par">Для продовження увійдіть на сайт</p>
+                        <p><input type="search" name="search"placeholder="10w40">
+                        <input type="submit"value="Пошук"></p>
+                        <label><input type="radio" name="serch_1" value="search_kod" >Пошук по коду:<span> 4565043343</span></label><br>    
+                        <label><input type="radio" name="serch_1" value="search_nazva">Пошук по назві:<span> Aral 10w40</span></label>   
+                     </form>
+                </div>
+            </div>
+        </header>
+        <!--/шапка-->
+        <main>
+          <div class="center">
+              <div class="background_form">
+                   <div class="form_enter">                      
+                       
+                       <form method="get"action="form.php" >
+                           <h2>Вхід</h2>
+                           <p><label for="log">Логін:*</label></p>
+                           <input type="text" name="login" id="log" required> <p><label for="pas">Пароль:*</label></p>
+                           <input type="password" name="pass" id="pas" required><br>  
+                           <label><input type="checkbox"name="check"><span>запам'ятати мене</span></label><br>
+                           <input type="submit"value="Вхід"name="enter"class="button1"><br>        <a href="">Забули пароль?</a>  
+                       </form>
+                   </div>
+                  <div class="form_registration">
+                       
+                      <form method="get"action="form.php">
+                          <h2>Реєстрація</h2>
+                          <p><label for="log1">Логін:*</label></p><input type="text" name="login1" id="log1" required> 
+                          <p><label for="pas1">Пароль:*</label></p><input type="password" name="pass1" id="pas1" required>
+                          <p><label for="pas2">Повторити пароль:*</label></p><input type="password" name="pass2" id="pas2" required>
+                          <p><label for="email">Електрона пошта:*</label></p><input type="email"name="mail"placeholder="lzerocool@gmail.com"id="email" required> 
+                          <p><label for="phone">Номер телефону:*</label></p><input type="phone"name="phone"id="phone"pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}" placeholder="093-62-36-404" required><br>
+                        
+                          <label><input type="checkbox"name="check1"><span> я згідний з умовами користувача</span></label><br>
+                          <input type="submit"value="Реєстрація" class="button2">
+                      </form>
+                  </div>
+                  <div class="clear"></div>
+                  <p class="some_text">Поля відмічені * мають бути обов'язково заповнені!</p>
+              </div>
+          </div>        
+        </main>
+        <!--main-->
+        
+        
+        <footer>
+            <div class="footer_center">
+             <div class="footer_information">
+                <h3>Графік роботи</h3>
+                <p>Пн-Пт</p>
+                <p>09.00-18.00</p>
+                <p>Вихідний Сб-Нд</p>
+                <img href="">
+                <img href="">
+                <img href="">
+            </div>
+            <div class="footer_information" id="footer_inf">
+             
+                <h3>Підписка на новини</h3>
+                <form method="GET" action="formdata.php">
+                    <input type="email" name="email"placeholder="email">
+                    <input type="submit" value="Підписатись">
+                </form>   
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com/?lang=ru"><img src="images/twitter.png" alt="twitter"></a>
+            </div>
+          
+            
+                <!--<h3>Наші контакти</h3>-->
+             <div class="footer_information">
+                    <h3>Інфовідділ:</h3>
+                    <p>093-62-36-402</p>
+                    <p>Email:InfoAuto@gmail.com</p>
+                    <p>Skype:AutoInfo</p>
+            </div>
+            <div class="footer_information">
+                    <h3>Відділ збуту:</h3>
+                    <p>093-62-36-402</p>
+                    <p>093-63-36-492</p>
+            </div>
+            <div class="footer_information" id="footer_inf1">
+                    <h3>Комерційний директор    </h3>
+                    <p>093-62-36-422</p>
+                    <p>Email:ZakazAuto@gmail.com</p>
+            </div>
+            <div class="clear"></div>
+           
+            </div>
+            
+        </footer>
+        </div>
+    </body>
+</html>    

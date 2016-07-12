@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AutoOriginal</title>
+        <meta charset="utf-8">
+        <link href="style/clients_style.css"rel="stylesheet">
+        <link href="style/media_1.css" media="(max-width:1300px) and (min-width:980px)" rel="stylesheet">
+        <link href="style/media_2.css"media="(max-width:979px) and (min-width:640px)"rel="stylesheet">
+        <link href="style/media_3.css"media="(max-width:639px) and (min-width:360px)"rel="stylesheet">
+    </head>
+    <body>
+       <div class="wrapper">
+        <header>
+            <div class="client_header_1">
+                <ul class="list_1">
+                    <li><a href="index.html">Головна</a></li>
+                 
+                    <li class="prof1">Баланс: 30$</li>
+                    <li class="prof1">Курс($):24.93</li>
+                    
+                </ul>
+                <ul class="list_2">
+                    <li class="prof"><a href="">Профіль</a></li>
+                    <li><a href="index.html">Вихід</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="client_header_2">
+                <h1>AutoOriginal</h1>
+                <form method="get" action="form.php">
+                        <p><input type="search" name="search"placeholder="10w40">
+                        <input type="submit"value="Пошук"></p>
+                        <label><input type="radio" name="serch_1" value="search_kod" >Пошук по коду:<span> 4565043343</span></label><br>    
+                        <label><input type="radio" name="serch_1" value="search_nazva">Пошук по назві:<span> Aral 10w40</span></label>   
+                </form>
+                <div class="koshuk_header">
+                    <h5>Кошик</h5>
+                    <p>Кількість в корзині: 12</p>
+                    <p>На суму: 5600$</p>
+                </div>
+            </div>
+        </header>
+        <!--/header -->
+        <main>
+          <div class="main_block">
+            <div class="main_list">
+                <ul class="nav">
+                    <a href="price_list/GPSнавігатори.xls"download><li>GPS навигатори</li></a>
+                    <a href="price_list/Автокосметика.xls"download><li>Автокосметика</li></a>
+                    <a href="price_list/Автохімія.xls"download><li>Автохімія</li></a>
+                    <a href="price_list/Акумулятори.xls"download><li>Акомулятори</li></a>
+                    <a href="price_list/Гальмівнірідини.xls"download><li>Гальмівні рідини</li></a>
+                    <a href="price_list/Кузовнідеталі.xls"download><li>Кузовні деталі</li></a>
+                    <a href="price_list/Охолоджуючірідини.xls" download> <li>Охолоджуючі рідини</li></a>
+                    <a href="price_list/Фільтра.xls" download> <li>Фільтра</li></a>
+                    <a href="price_list/Шинитадиски.xls"download> <li>Шини та диски</li></a>
+                </ul>
+            </div>
+            <div class="main_form">
+                <h2>Корзина</h2>
+              
+                <form method="get"action="form.php">
+                    <table>
+                        <tr><th>№ деталі</th><th>Назва деталі</th><th>Кількість</th><th>Ціна</th></tr>
+                        <tr><td>12355</td><td>Паливний фільтр Bosh</td><td>1шт</td><td>60$</td></tr>
+                        <tr><td>1657</td><td>Масло Aral 5w40</td><td>5л</td><td>100$</td></tr>
+                        <tr><td>145467</td><td>Гальмівна рідина DOT</td><td>0.5л</td><td>8$</td></tr>
+                        <tr><td>77654</td><td>Гальмівна рідина Venol</td><td>1л</td><td>15$</td></tr>
+                        <tr><td>12354153</td><td>Фільтр  WP 6914</td><td>1шт</td><td>40$</td></tr>
+                        <tr><td>12354153</td><td>AP 177/1 фільтр</td><td>2шт</td><td>100$</td></tr>
+                        <tr><td>12354153</td><td>Шина 225/60  R 17  TAURUS</td><td>4шт</td><td>600$</td></tr>
+                        <tr><td>12354153</td><td>Шина 235/55  R 18  INFINITYh</td><td>1шт</td><td>150$</td></tr>
+                        <tr><td>12354153</td><td>АКБ VARTA  60 (540 A) h</td><td>1шт</td><td>500$</td></tr>
+                        <tr><td>12354153</td><td>Очисник скла Mixon M-103sh</td><td>1л</td><td>10$</td></tr>
+                        <tr><td>12354153</td><td>Відновлювач гуми Atas PNEUBELL </td><td>0.5л</td><td>15$</td></tr>
+                    </table>
+                    <input type="submit"value="Оформити замовлення"><input type="submit" value="Очистити корзину">
+                </form>
+             
+            </div>
+            </div>
+        </main>
+        <div class="clear"></div>
+        <!--/main-->
+        <footer>
+            <div class="footer_center">
+             <div class="footer_information">
+                <h3>Графік роботи</h3>
+                <p>Пн-Пт</p>
+                <p>09.00-18.00</p>
+                <p>Вихідний Сб-Нд</p>
+                <img href="">
+                <img href="">
+                <img href="">
+            </div>
+            <div class="footer_information " id="footer_inf">
+                <h3>Підписка на новини</h3>
+                <form method="GET" action="formdata.php">
+                    <input type="email" name="email"placeholder="email">
+                    <input type="submit" value="Підписатись">
+                </form>   
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com/?lang=ru"><img src="images/twitter.png" alt="twitter"></a>
+            </div>
+          
+            
+                <!--<h3>Наші контакти</h3>-->
+             <div class="footer_information">
+                    <h3>Інфовідділ:</h3>
+                    <p>093-62-36-402</p>
+                    <p>Email:InfoAuto@gmail.com</p>
+                    <p>Skype:AutoInfo</p>
+            </div>
+            <div class="footer_information">
+                    <h3>Відділ збуту:</h3>
+                    <p>093-62-36-402</p>
+                    <p>093-63-36-492</p>
+            </div>
+            <div class="footer_information" id="footer_inf1">
+                    <h3>Комерційний директор    </h3>
+                    <p>093-62-36-422</p>
+                    <p>Email:ZakazAuto@gmail.com</p>
+            </div>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>    
