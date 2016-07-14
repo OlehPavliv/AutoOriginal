@@ -37,12 +37,13 @@ main .main_list ul.nav li{
 }
 main .main_form table th{
 
-    width:95px;
+    width:70px;
     margin:0 0;
  
 }
 main .main_form table{
     font-size:14px; 
+    margin-right:10px;
     
 }
 main .main_form h2{

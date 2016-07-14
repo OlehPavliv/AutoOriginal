@@ -14,6 +14,9 @@ document.getElementById('Products').onclick = function(){
 document.getElementById('News').onclick = function(){
     document.getElementById('News_1').style.display='block';
     document.getElementById('Company_1').style.display='none';
-    document.getElementById('News_1').style.display='none';
+    document.getElementById('Products_1').style.display='none';
     event.preventDefault();
 }
+
+
+

@@ -27,7 +27,8 @@ main .main_form table th{
 }
     
 main .main_form table{
-    font-size:17px; 
+    font-size:17px;
+    width:600px;
 /*--------/main------------------*/
     
 /*-----------------footer---------*/
